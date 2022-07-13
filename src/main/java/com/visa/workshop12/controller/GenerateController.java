@@ -53,8 +53,6 @@ public class GenerateController {
             imgNumbers[i] = "number" + i + ".jpg";
         }
 
-        // logger.info("arr > " + imgNumbers);
-
         List<String> selectedImg = new ArrayList<String>();
         Random random = new Random();
         Set<Integer> uniqueGenResult= new LinkedHashSet<Integer>();
